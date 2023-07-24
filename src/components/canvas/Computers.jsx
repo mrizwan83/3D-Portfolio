@@ -8,7 +8,7 @@ import CanvasLoader from "../Loader";
 const ComputerComponent = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
   return (
-    <mesh>
+    <mesh >
       <hemisphereLight intensity={0.15} groundColor='black' />
       <pointLight intensity={1} />
       <spotLight
@@ -19,7 +19,7 @@ const ComputerComponent = ({ isMobile }) => {
         castShadow
         shadow-mapSize={1024}
       />
-      <primitive
+      <primitive className="cursor-pointer"
         object={computer.scene}
         scale={isMobile ? 0.7 : 0.75}
         position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}

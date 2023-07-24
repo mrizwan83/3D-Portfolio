@@ -40,7 +40,7 @@ const About = () => {
         I'm a skilled software developer with a passion for creating efficient and user-friendly solutions.
         My expertise spans TypeScript, JavaScript, and Ruby on Rails, and I thoroughly enjoy working with frameworks like React, Node.js, and Tailwind CSS.
         As a quick learner, I collaborate closely with clients to bring their amazing ideas to life and ensure their vision becomes a tangible reality.
-        My journey in software development has given me the opportunity to work on exciting projects that have honed my skills in creating scalable
+        My journey in software engineering has given me the opportunity to work on exciting projects that have honed my skills in creating scalable
         applications and delivering solutions that solve real-world problems. Let's connect and discuss how we can collaborate on creating something great together!
       </motion.p>
       {/* cards */}
