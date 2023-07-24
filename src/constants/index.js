@@ -15,9 +15,6 @@ import {
     git,
     aalogo,
     logo,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     scaleAIlogo,
     next,
@@ -29,6 +26,10 @@ import {
     axios,
     googlemaps,
     heroku,
+    facediary,
+    rizzyprompts,
+    crawl,
+    adventurescape
 
 } from "../assets";
 
@@ -235,213 +236,135 @@ const testimonials = [
     },
 ];
 
+
 const projects = [
     {
-        name: "Car Rent",
+        name: "RizzyPrompts",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "A modern Next.js 13 full-stack application that allows users to explore a collection of AI prompts, share their ideas, collaborate with others, and vote on the most inspiring prompts in the field of artificial intelligence.",
         tags: [
             {
-                name: "react",
+                name: "Next.js",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "NextAuth",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "MongoDB",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "Tailwind CSS",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: rizzyprompts,
+        source_code_link: "https://github.com/mrizwan83/RizzyPrompts",
     },
     {
-        name: "Job IT",
+        name: "Crawl",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "A MERN stack web app that allows users to signup and create crawls with their favorite venues, making it easy to explore new places and share experiences.",
         tags: [
             {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
+                name: "MongoDB",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
-                color: "pink-text-gradient",
+                name: "Express.js",
+                color: "orange-text-gradient",
             },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
             {
-                name: "nextjs",
+                name: "React",
                 color: "blue-text-gradient",
             },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
-    },
-];
 
-// const projects = [
-//     {
-//         name: "Crawl",
-//         description:
-//             "A MERN stack web app that allows users to signup and create crawls with their favorite venues, making it easy to explore new places and share experiences.",
-//         tags: [
-//             {
-//                 name: "React",
-//                 color: "blue-text-gradient",
-//             },
-//             {
-//                 name: "Redux",
-//                 color: "green-text-gradient",
-//             },
-//             {
-//                 name: "Express.js",
-//                 color: "pink-text-gradient",
-//             },
-//             {
-//                 name: "Node.js",
-//                 color: "purple-text-gradient",
-//             },
-//             {
-//                 name: "MongoDB",
-//                 color: "orange-text-gradient",
-//             },
-//             {
-//                 name: "Google Maps API",
-//                 color: "yellow-text-gradient",
-//             },
-//             {
-//                 name: "Cloudinary Upload API",
-//                 color: "teal-text-gradient",
-//             },
-//             {
-//                 name: "HTML",
-//                 color: "indigo-text-gradient",
-//             },
-//             {
-//                 name: "CSS",
-//                 color: "red-text-gradient",
-//             },
-//         ],
-//         image: crawlImage,
-//         source_code_link: "https://github.com/your_username/crawl",
-//     },
-//     {
-//         name: "FaceDiary",
-//         description:
-//             "A full-stack clone of Facebook that uses React-Redux frontend and Ruby on Rails for the backend, providing a familiar social media experience for users.",
-//         tags: [
-//             {
-//                 name: "React",
-//                 color: "blue-text-gradient",
-//             },
-//             {
-//                 name: "Redux",
-//                 color: "green-text-gradient",
-//             },
-//             {
-//                 name: "JavaScript",
-//                 color: "pink-text-gradient",
-//             },
-//             {
-//                 name: "Ruby on Rails",
-//                 color: "purple-text-gradient",
-//             },
-//             {
-//                 name: "AWS S3",
-//                 color: "orange-text-gradient",
-//             },
-//             {
-//                 name: "HTML",
-//                 color: "indigo-text-gradient",
-//             },
-//             {
-//                 name: "CSS",
-//                 color: "red-text-gradient",
-//             },
-//         ],
-//         image: facediaryImage,
-//         source_code_link: "https://github.com/your_username/facediary",
-//     },
-//     {
-//         name: "AdventureScape",
-//         description:
-//             "A Canvas-based game inspired by Pokemon and Runescape, built with HTML Canvas and JavaScript, offering an immersive gaming experience.",
-//         tags: [
-//             {
-//                 name: "JavaScript",
-//                 color: "blue-text-gradient",
-//             },
-//             {
-//                 name: "HTML",
-//                 color: "green-text-gradient",
-//             },
-//             {
-//                 name: "SCSS",
-//                 color: "pink-text-gradient",
-//             },
-//             {
-//                 name: "HTML Canvas",
-//                 color: "purple-text-gradient",
-//             },
-//             {
-//                 name: "GSAP (GreenSock)",
-//                 color: "orange-text-gradient",
-//             },
-//         ],
-//         image: adventurescapeImage,
-//         source_code_link: "https://github.com/your_username/adventurescape",
-//     },
-//     {
-//         name: "RizzyPrompts",
-//         description:
-//             "A modern Next.js 13 full-stack application that allows users to explore a collection of AI prompts, share their ideas, collaborate with others, and vote on the most inspiring prompts in the field of artificial intelligence.",
-//         tags: [
-//             {
-//                 name: "Next.js",
-//                 color: "blue-text-gradient",
-//             },
-//             {
-//                 name: "NextAuth",
-//                 color: "green-text-gradient",
-//             },
-//             {
-//                 name: "MongoDB",
-//                 color: "pink-text-gradient",
-//             },
-//             {
-//                 name: "Tailwind CSS",
-//                 color: "purple-text-gradient",
-//             },
-//             {
-//                 name: "OAuth with Google and GitHub",
-//                 color: "orange-text-gradient",
-//             },
-//         ],
-//         image: rizzypromptsImage,
-//         source_code_link: "https://github.com/your_username/rizzyprompts",
-//     },
-// ];
+            {
+                name: "Node.js",
+                color: "gold-text-gradient",
+            },
+
+            {
+                name: "Google Maps API",
+                color: "aqua-text-gradient",
+            },
+            {
+                name: "Cloudinary Upload API",
+                color: "aqua-text-gradient",
+            },
+        ],
+        image: crawl,
+        source_code_link: "https://github.com/mrizwan83/crawl",
+    },
+    {
+        name: "FaceDiary",
+        description:
+            "A full-stack clone of Facebook that uses React-Redux frontend and Ruby on Rails for the backend, providing a familiar social media experience for users.",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Redux",
+                color: "green-text-gradient",
+            },
+            {
+                name: "JavaScript",
+                color: "gold-text-gradient",
+            },
+            {
+                name: "Ruby on Rails",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "AWS S3",
+                color: "aqua-text-gradient",
+            },
+            {
+                name: "HTML",
+                color: "cyan-text-gradient",
+            },
+            {
+                name: "CSS",
+                color: "cyan-text-gradient",
+            },
+        ],
+        image: facediary,
+        source_code_link: "https://github.com/mrizwan83/FaceDiary",
+    },
+    {
+        name: "AdventureScape",
+        description:
+            "A Canvas-based game inspired by Pokemon and Runescape, built with HTML Canvas and JavaScript, offering an immersive gaming experience.",
+        tags: [
+            {
+                name: "JavaScript",
+                color: "gold-text-gradient",
+            },
+            {
+                name: "HTML",
+                color: "cyan-text-gradient",
+            },
+            {
+                name: "SCSS",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "HTML Canvas",
+                color: "aqua-text-gradient",
+            },
+            {
+                name: "GSAP (GreenSock)",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: adventurescape,
+        source_code_link: "https://github.com/mrizwan83/adventurescape",
+    },
+
+];
 
 export { services, technologies, experiences, testimonials, projects };

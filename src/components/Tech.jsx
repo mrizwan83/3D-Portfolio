@@ -29,7 +29,7 @@ const Tech = () => {
         className="mt-4 w-full flex flex-row justify-center overflow-hidden max-w-7xl"
       >
         <motion.div
-          variants={fadeIn("down", "spring", 0.1, 3)}
+          variants={fadeIn("down", "spring", 0.5, 3)}
           className="w-full flex flex-wrap justify-evenly items-center gap-3 p-3"
         >
           {technologies.map((technology) => (

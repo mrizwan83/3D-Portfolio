@@ -32,10 +32,10 @@ import heroku from "./tech/heroku.png";
 import aalogo from "./company/aalogo.png";
 import scaleAIlogo from "./company/scaleAIlogo.png"
 
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import rizzyprompts from "./rizzyprompts.png"
+import crawl from "./crawl.png"
+import facediary from "./facediary.png"
+import adventurescape from "./adventurescape.png"
 
 export {
   logo,
@@ -58,9 +58,6 @@ export {
   typescript,
   threejs,
   aalogo,
-  carrent,
-  jobit,
-  tripguide,
   scaleAIlogo,
   next,
   python,
@@ -71,4 +68,8 @@ export {
   axios,
   googlemaps,
   heroku,
+  rizzyprompts,
+  crawl,
+  facediary,
+  adventurescape
 };
