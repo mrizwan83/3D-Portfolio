@@ -13,15 +13,23 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
     aalogo,
     logo,
     carrent,
     jobit,
     tripguide,
     threejs,
-    scaleAIlogo
+    scaleAIlogo,
+    next,
+    python,
+    postgresql,
+    rails,
+    awss3,
+    scss,
+    axios,
+    googlemaps,
+    heroku,
+
 } from "../assets";
 
 export const navLinks = [
@@ -104,12 +112,40 @@ const technologies = [
         icon: git,
     },
     {
-        name: "figma",
-        icon: figma,
+        name: "Next.js",
+        icon: next,
     },
     {
-        name: "docker",
-        icon: docker,
+        name: "Python",
+        icon: python,
+    },
+    {
+        name: "PostgreSQL",
+        icon: postgresql,
+    },
+    {
+        name: "Ruby on Rails",
+        icon: rails,
+    },
+    {
+        name: "AWS S3",
+        icon: awss3,
+    },
+    {
+        name: "SCSS/Sass",
+        icon: scss,
+    },
+    {
+        name: "Axios",
+        icon: axios,
+    },
+    {
+        name: "Google Maps API",
+        icon: googlemaps,
+    },
+    {
+        name: "Heroku",
+        icon: heroku,
     },
 ];
 

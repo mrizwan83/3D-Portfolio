@@ -8,8 +8,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -19,7 +17,16 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
+import next from "./tech/next.png";
+import python from "./tech/python.png";
+import postgresql from "./tech/postgresql.png";
+import rails from "./tech/rails.png";
+import awss3 from "./tech/awss3.png";
+import scss from "./tech/scss.png";
+import axios from "./tech/axios.svg";
+import googlemaps from "./tech/googlemaps.png";
+import heroku from "./tech/heroku.png";
 
 
 import aalogo from "./company/aalogo.png";
@@ -40,8 +47,6 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
@@ -56,5 +61,14 @@ export {
   carrent,
   jobit,
   tripguide,
-  scaleAIlogo
+  scaleAIlogo,
+  next,
+  python,
+  postgresql,
+  rails,
+  awss3,
+  scss,
+  axios,
+  googlemaps,
+  heroku,
 };
