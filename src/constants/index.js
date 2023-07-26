@@ -237,6 +237,8 @@ const testimonials = [
 ];
 
 
+
+
 const projects = [
     {
         name: "RizzyPrompts",
@@ -262,6 +264,7 @@ const projects = [
         ],
         image: rizzyprompts,
         source_code_link: "https://github.com/mrizwan83/RizzyPrompts",
+        live_demo_link: "https://rizzyprompts.com",
     },
     {
         name: "Crawl",
@@ -297,6 +300,7 @@ const projects = [
         ],
         image: crawl,
         source_code_link: "https://github.com/mrizwan83/crawl",
+        live_demo_link: "https://socialcrawl.herokuapp.com/",
     },
     {
         name: "FaceDiary",
@@ -334,6 +338,7 @@ const projects = [
         ],
         image: facediary,
         source_code_link: "https://github.com/mrizwan83/FaceDiary",
+        live_demo_link: "http://facediary.herokuapp.com",
     },
     {
         name: "AdventureScape",
@@ -363,6 +368,7 @@ const projects = [
         ],
         image: adventurescape,
         source_code_link: "https://github.com/mrizwan83/adventurescape",
+        live_demo_link: "https://mrizwan83.github.io/adventurescape",
     },
 
 ];
