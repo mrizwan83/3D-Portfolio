@@ -3,7 +3,7 @@ import { About, Contact, Experience, MoreInfo, Hero, Navbar, Tech, Works, StarsC
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
@@ -23,4 +23,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
