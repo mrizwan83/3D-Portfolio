@@ -31,12 +31,22 @@ import heroku from "./tech/heroku.png";
 
 
 import aalogo from "./company/aalogo.png";
-import scaleAIlogo from "./company/scaleAIlogo.png"
+import scaleAIlogo from "./company/scaleAIlogo.png";
 
-import rizzyprompts from "./rizzyprompts.png"
-import crawl from "./crawl.png"
-import facediary from "./facediary.png"
-import adventurescape from "./adventurescape.png"
+import rizzyprompts from "./rizzyprompts.png";
+import crawl from "./crawl.png";
+import facediary from "./facediary.png";
+import adventurescape from "./adventurescape.png";
+
+import githubSvg from "./images/github.svg";
+import linkedInSvg from "./images/linkedIn.svg";
+import portfolioSvg from "./images/portfolio.svg";
+import resumePDF from "./Mohammad_Rizwan_Resume_Final.pdf";
+import resumeSvg from "./images/resume.svg";
+import phoneSvg from "./images/phone.svg";
+import gDriveSvg from "./images/googledrive.svg";
+import emailSvg from "./images/email.svg";
+
 
 export {
   logo,
@@ -73,5 +83,13 @@ export {
   crawl,
   facediary,
   adventurescape,
-  livelink
+  livelink,
+  githubSvg,
+  linkedInSvg,
+  portfolioSvg,
+  resumePDF,
+  resumeSvg,
+  phoneSvg,
+  gDriveSvg,
+  emailSvg
 };

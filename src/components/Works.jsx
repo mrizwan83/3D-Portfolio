@@ -97,7 +97,6 @@ const Works = () => {
           Explore my portfolio of real-world projects that demonstrate my skills in solving complex problems and working with diverse technologies.
           Each project is accompanied by a brief description and links to their code repositories and live demos,
           showcasing my ability to deliver innovative and user-friendly solutions.
-          Get inspired by my journey of growth and creativity through these projects.
         </motion.p>
       </div>
 
