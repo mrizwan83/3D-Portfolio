@@ -38,10 +38,10 @@ const About = () => {
       {/* fadeIn takes 4 params: direction, type, delay, duration */}
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
         I'm a skilled software developer with a passion for creating efficient and user-friendly solutions.
-        My expertise spans TypeScript, JavaScript, and Ruby on Rails, and I thoroughly enjoy working with frameworks like React, Node.js, and Tailwind CSS.
-        As a quick learner, I collaborate closely with clients to bring their amazing ideas to life and ensure their vision becomes a tangible reality.
-        My journey in software engineering has given me the opportunity to work on exciting projects that have honed my skills in creating scalable
-        applications and delivering solutions that solve real-world problems. Let's connect and discuss how we can collaborate on creating something great together!
+        My expertise spans React, JavaScript, TypeScript and Ruby on Rails. I also thoroughly enjoy working with frameworks like Next.js, Node.js, and Tailwind CSS.
+        Throughout my journey in software engineering, I've had the opportunity to work on exciting projects that have honed my skills in creating scalable applications
+        and delivering solutions that solve real-world problems. As a quick learner, I'm eager to collaborate closely with others to bring their amazing ideas to life
+        and ensure their vision becomes a tangible reality. Let's connect and discuss how we can collaborate on creating something great together!
       </motion.p>
       {/* cards */}
       <div className='mt-20 flex flex-wrap gap-10'>

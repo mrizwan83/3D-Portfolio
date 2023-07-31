@@ -88,7 +88,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your full name?"
+              placeholder="Enter your full name"
               className='bg-[#0b6b83] py-4 px-6 placeholder:text-slate-400 text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -99,7 +99,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your email address?"
+              placeholder="Enter your Email"
               className='bg-[#0b6b83] py-4 px-6 placeholder:text-slate-400 text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -110,7 +110,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='Enter your message'
               className='bg-[#0b6b83] py-4 px-6 placeholder:text-slate-400 text-white rounded-lg outline-none border-none font-medium'
             />
           </label>

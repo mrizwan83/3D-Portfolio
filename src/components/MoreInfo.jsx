@@ -7,7 +7,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { linkedInSvg, githubSvg, portfolioSvg, resumePDF, resumeSvg, phoneSvg, emailSvg, gDriveSvg } from "../assets";
 const MoreInfo = () => {
   return (
-    <div className={`mt-12 bg-tertiary rounded-[20px] border-[#11154d] border-2`}>
+    <div className={`mt-12 bg-tertiary rounded-[20px]`}>
       <div
         className={` bg-[#0b6b83] rounded-2xl ${styles.padding} min-h-[300px] `}
       >
@@ -21,10 +21,10 @@ const MoreInfo = () => {
           variants={fadeIn("", "spring", 0, 0.75)}
           className='bg-[#042831] p-10 rounded-3xl xs:w-[320px] w-full'
         >
-          <p className='text-white font-black text-[36px]'>Resume</p>
+          <p className='text-white font-black sm:text-[36px] text-[26px]'>Resume</p>
 
           <div className='mt-1'>
-            <p className='text-white tracking-wider text-[18px]'>Download and view my resume, or visit Google Docs link.</p>
+            <p className='text-white tracking-wider sm:text-[18px] text-[14px]'>Download and view my resume, or visit Google Docs link.</p>
 
             <div className='mt-7 flex justify-evenly items-center gap-1'>
               <div className="flex flex-col justify-center mt-2 gap-2 ">
@@ -66,10 +66,10 @@ const MoreInfo = () => {
           variants={fadeIn("", "spring", 0.5, 0.75)}
           className='bg-[#042831] p-10 rounded-3xl xs:w-[320px] w-full'
         >
-          <p className='text-white font-black text-[36px]'>Contact</p>
+          <p className='text-white font-black sm:text-[36px] text-[26px]'>Contact</p>
 
           <div className='mt-1'>
-            <p className='text-white tracking-wider text-[18px]'>My contact Information, incase you don't want to use the form below.</p>
+            <p className='text-white tracking-wider sm:text-[18px] text-[14px]'>My contact Information, Phone and Email</p>
 
             <div className='mt-7 flex justify-evenly items-center gap-1'>
               <div className="flex flex-col justify-center mt-2 gap-2 ">
@@ -110,10 +110,10 @@ const MoreInfo = () => {
           variants={fadeIn("", "spring", 1, 0.75)}
           className='bg-[#042831] p-10 rounded-3xl xs:w-[320px] w-full'
         >
-          <p className='text-white font-black text-[36px]'>Connections</p>
+          <p className='text-white font-black sm:text-[36px] text-[26px]'>Connections</p>
 
           <div className='mt-1'>
-            <p className='text-white tracking-wider text-[18px]'>Connect with me on LinkedIn and checkout my Github portfolio.</p>
+            <p className='text-white tracking-wider sm:text-[18px] text-[14px]'>Connect with me on LinkedIn and checkout my Github portfolio.</p>
 
 
 
