@@ -210,6 +210,21 @@ const experiences = [
             "Contributing proactively to various tasks and projects, supporting the team in delivering impactful AI-powered solutions.",
         ],
     },
+    {
+        title: "Software Engineer Assistant",
+        company_name: "App Academy",
+        icon: aalogo, // Replace with your logo or image URL
+        iconBg: "#383E56", // Customize the background color
+        date: "August 2023 - Present",
+        points: [
+            "Administer mock technical interviews, provide debugging support, and host technical office hours.",
+            "Monitor Job Seeker Study Hall, review progress on tasks, and provide project feedback and code review.",
+            "Conduct various types of mock technical interviews and debugging sessions and offer technical support to current Job Seekers.",
+            "Conduct high-level project reviews, assessing functionality, UI design, and feature implementation.",
+            "Collaborate with coaching teams to support students' technical growth and transitions after graduation.",
+        ],
+    }
+
 ];
 
 const testimonials = [
