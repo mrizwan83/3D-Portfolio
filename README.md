@@ -1,6 +1,6 @@
 # 3D Portfolio Site
 
-This is my personal portfolio website showcasing my projects and skills. The site is built using Three.js, Tailwind CSS, and React.
+This is my personal portfolio website showcasing my projects and skills and current work experience. The site is built using Three.js, Tailwind CSS, and React.
 
 ## Demo
 
