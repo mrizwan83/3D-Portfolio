@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { linkedInSvg, githubSvg, portfolioSvg, resumePDF, resumeSvg, phoneSvg, emailSvg, gDriveSvg } from "../assets";
+import { linkedInSvg, githubSvg, portfolioSvg, resumeSvg, phoneSvg, emailSvg, gDriveSvg } from "../assets";
 const MoreInfo = () => {
   return (
     <div className={`mt-12 bg-tertiary rounded-[20px]`}>

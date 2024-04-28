@@ -41,7 +41,6 @@ import adventurescape from "./adventurescape.png";
 import githubSvg from "./images/github.svg";
 import linkedInSvg from "./images/linkedIn.svg";
 import portfolioSvg from "./images/portfolio.svg";
-import resumePDF from "./Mohammad_Rizwan_Resume_Final.pdf";
 import resumeSvg from "./images/resume.svg";
 import phoneSvg from "./images/phone.svg";
 import gDriveSvg from "./images/googledrive.svg";
@@ -87,7 +86,6 @@ export {
   githubSvg,
   linkedInSvg,
   portfolioSvg,
-  resumePDF,
   resumeSvg,
   phoneSvg,
   gDriveSvg,
