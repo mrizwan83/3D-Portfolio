@@ -28,7 +28,7 @@ const MoreInfo = () => {
 
             <div className='mt-7 flex justify-evenly items-center gap-1'>
               <div className="flex flex-col justify-center mt-2 gap-2 ">
-                <a
+                {/* <a
                   href={resumePDF}
                   download
                   className="gap-1 rounded-full border border-black bg-[#0a5e74] py-1.5 px-5 text-black transition-all hover:bg-[#0f829e] hover:text-white text-center text-sm flex items-center justify-center hover:scale-110"
@@ -41,7 +41,7 @@ const MoreInfo = () => {
                     className="object-contain"
                   />
                   Download Resume
-                </a>
+                </a> */}
 
                 <a
                   href="https://docs.google.com/document/d/1hslrwYGvKjxQ8HfrmsJ3-4oztxW0Nb60zqWbXgD_6-A/edit?usp=sharing"
@@ -73,8 +73,8 @@ const MoreInfo = () => {
 
             <div className='mt-7 flex justify-evenly items-center gap-1'>
               <div className="flex flex-col justify-center mt-2 gap-2 ">
-                <a
-                  href='tel:+13474638824'
+                {/* <a
+                  href='tel:+1phone'
                   className="gap-1 rounded-full border border-black bg-[#0a5e74] py-1.5 px-5 text-black transition-all hover:bg-[#0f829e] hover:text-white text-center text-sm flex items-center justify-center hover:scale-110"
                 >
 
@@ -86,11 +86,11 @@ const MoreInfo = () => {
                     className="object-contain"
                   />
                   <label>Phone:</label>
-                  1-347-463-8824
-                </a>
+                  1-phone
+                </a> */}
 
                 <a
-                  href='mailto:mhrizwandev@gmail.com'
+                  href='mailto:rizzywebworks@gmail.com'
                   className="gap-1 rounded-full border border-black bg-[#0a5e74] py-1.5 px-5 text-black transition-all hover:bg-[#0f829e] hover:text-white text-center text-sm flex items-center justify-center hover:scale-110"
                 >
                   <img
@@ -100,7 +100,7 @@ const MoreInfo = () => {
                     height={15}
                     className="object-contain "
                   />
-                  mhrizwandev@gmail.com
+                  rizzywebworks@gmail.com
                 </a>
               </div>
             </div>
@@ -151,7 +151,7 @@ const MoreInfo = () => {
                   Github
                 </a>
 
-                <a
+                {/* <a
                   href="https://mrizwan83.github.io/mrizwan83"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -165,7 +165,7 @@ const MoreInfo = () => {
                     className="object-contain"
                   />
                   Github Portfolio
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
